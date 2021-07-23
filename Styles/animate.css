@@ -1,0 +1,39 @@
+@keyframes upiy{
+0%{
+    opacity: 0;
+    transform: translateY(30px);
+}   
+100%{
+    opacity: 1;
+    transform: none;
+} 
+}
+
+@keyframes upi{
+0%{
+    opacity: 0;
+    transform: translateY(60px);
+}   
+60%{
+    opacity: 0;
+    transform: translateY(0);
+}
+100%{
+    opacity: 1;
+}
+}
+
+@keyframes coloram {
+0%{
+    color: white;
+    opacity: 1;
+}
+20%{
+    color: lightslategrey;
+    opacity: 0.8;
+}
+100%{
+    color: white;
+    opacity: 1;
+}    
+}
